@@ -1,0 +1,14 @@
+refresh:
+  name: Refresh EPG
+  description: >
+    Force refresh of the TVHeadend EPG data.
+    If entry_id is provided, only that config entry is refreshed.
+    Otherwise all TVHeadend EPG entries are refreshed.
+  fields:
+    entry_id:
+      name: Config Entry ID
+      description: >
+        Optional config entry ID of the TVHeadend EPG integration to refresh.
+      example: "01KE7WVZQ05ACSGCXBAWE6ZMDE"
+      selector:
+        text:

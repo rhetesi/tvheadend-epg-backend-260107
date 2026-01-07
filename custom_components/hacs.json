@@ -1,0 +1,7 @@
+{
+  "name": "TVHeadend EPG",
+  "content_in_root": false,
+  "domain": "tvheadend_epg",
+  "country": ["HU"],
+  "homeassistant": "2023.6.0"
+}
